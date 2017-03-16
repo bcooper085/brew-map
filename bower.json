@@ -1,9 +1,9 @@
 {
   "name": "brew-map",
-  "description": "",
+  "description": "brewery road trip map",
   "main": "index.js",
   "license": "ISC",
-  "homepage": "https://github.com/sandro-mijatovic/pingpong-jquery",
+  "homepage": "https://github.com/gmkhanna/brew-map",
   "ignore": [
     "**/.*",
     "node_modules",
