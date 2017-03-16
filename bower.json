@@ -1,9 +1,9 @@
 {
-  "name": "alarm",
-  "description": "real time alarm clock",
-  "main": "build.js",
+  "name": "brew-map",
+  "description": "",
+  "main": "index.js",
   "license": "ISC",
-  "homepage": "",
+  "homepage": "https://github.com/sandro-mijatovic/pingpong-jquery",
   "ignore": [
     "**/.*",
     "node_modules",
@@ -14,7 +14,9 @@
   "dependencies": {
     "jquery": "^3.1.1",
     "bootstrap": "^3.3.7",
-    "moment": "^2.17.1",
-    "materialize": "^0.98.0",
-  }
+    "moment": "^2.17.1"
+  },
+  "authors": [
+    "Grinil Khanna <gmkhanna@gmail.com>"
+  ]
 }

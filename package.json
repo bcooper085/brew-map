@@ -1,8 +1,7 @@
 {
-  "name": "alarm",
+  "name": "brew-map",
   "version": "1.0.0",
-  "description": "real time alarm clock",
-  "main": "build.js",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -16,9 +15,25 @@
     "gulp": "^3.9.1",
     "gulp-concat": "^2.6.1",
     "gulp-jshint": "^2.0.4",
+    "gulp-sass": "^3.1.0",
+    "gulp-sourcemaps": "^2.4.1",
     "gulp-uglify": "^2.1.0",
     "gulp-util": "^3.0.8",
     "jshint": "^2.9.4",
     "vinyl-source-stream": "^1.1.0"
-  }
+  },
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sandro-mijatovic/pingpong-jquery.git"
+  },
+  "keywords": [
+    "bike",
+    "api"
+  ],
+  "bugs": {
+    "url": "https://github.com/sandro-mijatovic/pingpong-jquery/issues"
+  },
+  "homepage": "https://github.com/sandro-mijatovic/pingpong-jquery#readme",
+  "description": ""
 }
