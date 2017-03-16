@@ -1,24 +1,32 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8">
+    <link rel="stylesheet" href="build/css/vendor.css">
+   <script src="build/js/vendor.min.js"></script>
+   <script type="text/javascript" src="build/js/app.js"></script>
+   <!-- <script type="text/javascript" src="js/brew.js"> -->
+
+   </script>
+    <title>Simple Map</title>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDpy0iNmpgH56PRn6JjMjw0zFXlb6NOVLU" async defer></script>
     <meta name="viewport" content="initial-scale=1.0">
-    <title>brew-map</title>
+    <meta charset="utf-8">
+    <style>
+      /* Always set the map height explicitly to define the size of the div
+       * element that contains the map. */
+      #map {
+        height: 100%;
+      }
+      /* Optional: Makes the sample page fill the window. */
+      html, body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+    </style>
   </head>
   <body>
-    <h1>This is a brew map</h1>
-    <div class="address-input">
+    <div id="map"></div>
 
-      <form class="map">
-        <label for="going">Where are you going?</label><br><br>
-        <input type="text" id="from-city" placeholder="Starting City"><br><br>
-        <input type="text" id="to-city" placeholder="Destination City"><br><br>
-
-        <button type="submit" name="button">Plan Trip</button>
-      </form>
-    </div>
-    <div id="map">
-
-    </div>
   </body>
 </html>
